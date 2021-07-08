@@ -19,6 +19,7 @@ on:
       - cmake/**
       - src/**
       - CMakeLists.txt
+  workflow_dispatch:
 
 jobs:
   job:
